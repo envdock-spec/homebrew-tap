@@ -5,13 +5,13 @@ class Edk < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/envdock-spec/edk/releases/tag/libraries/envdock-cli-macos-arm64"
-    sha256 "6df134120d520123ac8ddb6a9066a4d6c3e66d47e829ba74803d39e5749216f5"
+    sha256 "234198579cbacd99e39f329bf9074823f02947e3357c527cc90ba7863cef7bcc"
   elsif OS.mac?
     url "https://github.com/envdock-spec/edk/releases/tag/libraries/envdock-cli-macos-x64"
-    sha256 "a14a7c752d4e407478c80ab3dd9a477166c69acf265bad0aab170178393e8cc0"
+    sha256 "9205fd0baad801bc43f1877530344e0dc1e7bfaca3754641aa3b38829380039d"
   elsif OS.linux?
     url "https://github.com/envdock-spec/edk/releases/tag/libraries/envdock-cli-linux-x64"
-    sha256 "ada2f20b76e95e84cddbd9bfb96f8cd743fc34a9ba26d8ed81b3128cc8068279"
+    sha256 "77b06aa858d26d549c7bd091e00739112fc65a9ea59d3f72740d11376d189e92"
   end
 
   def install
